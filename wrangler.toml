@@ -1,0 +1,8 @@
+name = "design-costpccc"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "design-costs-db"
+database_id = "d81d271c-2413-44e3-8467-68ba3ae65d78"
