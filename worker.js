@@ -1,7 +1,9 @@
+import indexHtml from './index.html';
+
 export default {
   async fetch(request, env) {
-    return new Response("Design Costs API đang hoạt động!", {
-      headers: { "Content-Type": "text/plain" },
+    return new Response(indexHtml, {
+      headers: { 'Content-Type': 'text/html; charset=utf-8' },
     });
   },
 };
